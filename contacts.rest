@@ -1,4 +1,4 @@
-###
+### LOCAL
 GET http://localhost:3000/contacts
 ###
 GET http://localhost:3000/contacts/6269eac1f477fa3f8ac18fb4
@@ -6,3 +6,6 @@ GET http://localhost:3000/contacts/6269eac1f477fa3f8ac18fb4
 GET http://localhost:3000/contacts/6269eb0bf477fa3f8ac24e26
 ###
 GET http://localhost:3000/contacts/6269eb1bf477fa3f8ac270a6
+
+### HEROKU
+GET https://cse341-week02.herokuapp.com/contacts
