@@ -1,10 +1,9 @@
 const express = require('express');
 const connectDB = require('./DB/connection')
 const app = express();
-
-connectDB();
-
 const port = process.env.Port || 3000;
+
+//connectDB();
 
 app.use('/', require('./routes'))
 
