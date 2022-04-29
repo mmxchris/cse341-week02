@@ -1,6 +1,10 @@
 const routes = require('express').Router();
 const Contacts = require('../DB/Contacts');
 
+routes.get('/', (req, res) => {
+  res.send('Home')
+});
+
 
 routes.get('/contacts',async ( req, res) => {
   console.log("Getting Stuff...")
