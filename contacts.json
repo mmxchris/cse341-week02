@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName":"Chris",
+        "lastName":"Bowen",
+        "email":"mmxchris@gmail.com",
+        "favoriteColor":"Blue",
+        "birthday":"04/03/1983"
+    },
+    "contact2": {
+        "firstName":"Chris",
+        "lastName":"Bowen",
+        "email":"Leeloo@iamadog.com",
+        "favoriteColor":"Red",
+        "birthday":"10/30/2019"
+    },
+    "contact3": {
+        "firstName":"Eileen",
+        "lastName":"Bowen",
+        "email":"bestwife@bestwife.com",
+        "favoriteColor":"Purple",
+        "birthday":"02/26/1983"
+    }
+}
