@@ -7,7 +7,7 @@ GET http://localhost:3000/contacts/6269eb0bf477fa3f8ac24e26
 ###
 GET http://localhost:3000/contacts/6269eb1bf477fa3f8ac270a6
 ###
-POST http://localhost:3000/contacts/6269eb0bf477fa3f8ac24e26
+POST http://localhost:3000/contacts/
 Content-Type: application/json
 
 {
@@ -42,3 +42,14 @@ GET https://cse341-week02.herokuapp.com/contacts/6269eac1f477fa3f8ac18fb4
 GET https://cse341-week02.herokuapp.com/contacts/6269eb0bf477fa3f8ac24e26
 ###
 GET https://cse341-week02.herokuapp.com/contacts/6269eb1bf477fa3f8ac270a6
+###
+POST https://cse341-week02.herokuapp.com/contacts/
+Content-Type: application/json
+
+{
+    "firstName":"Tifa",
+    "lastName":"Bowen",
+    "email":"IlikeSticks@iamadog.com",
+    "favoriteColor":"Food",
+    "birthday":"08/26/2020"
+}
