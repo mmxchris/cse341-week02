@@ -6,6 +6,33 @@ GET http://localhost:3000/contacts/6269eac1f477fa3f8ac18fb4
 GET http://localhost:3000/contacts/6269eb0bf477fa3f8ac24e26
 ###
 GET http://localhost:3000/contacts/6269eb1bf477fa3f8ac270a6
+###
+POST http://localhost:3000/contacts/6269eb0bf477fa3f8ac24e26
+Content-Type: application/json
+
+{
+    "firstName":"Tifa",
+    "lastName":"Bowen",
+    "email":"IlikeSticks@iamadog.com",
+    "favoriteColor":"Food",
+    "birthday":"08/26/2020"
+}
+
+###
+DELETE http://localhost:3000/contacts/62753b4d2155703ffdf0858c
+
+###
+PUT http://localhost:3000/contacts/6269eb0bf477fa3f8ac24e26
+Content-Type: application/json
+
+{
+    "firstName": "Eileen",
+    "lastName": "Bowen",
+    "email": "bestwife@bestwife.com",
+    "favoriteColor": "Silver",
+    "birthday": "02/26/1983"
+}
+
 
 ### HEROKU
 GET https://cse341-week02.herokuapp.com/contacts

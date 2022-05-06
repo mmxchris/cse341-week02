@@ -7,7 +7,7 @@
         "birthday":"04/03/1983"
     },
     "contact2": {
-        "firstName":"Chris",
+        "firstName":"Leeloo",
         "lastName":"Bowen",
         "email":"Leeloo@iamadog.com",
         "favoriteColor":"Red",
@@ -19,5 +19,19 @@
         "email":"bestwife@bestwife.com",
         "favoriteColor":"Purple",
         "birthday":"02/26/1983"
+    },
+    "contact4": {
+        "firstName":"Tifa",
+        "lastName":"Bowen",
+        "email":"IlikeSticks@iamadog.com",
+        "favoriteColor":"Food",
+        "birthday":"08/26/2020"
+    },
+    "contact5": {
+        "firstName":"Test",
+        "lastName":"Test",
+        "email":"test@test.com",
+        "favoriteColor":"Test",
+        "birthday":"00/00/0000"
     }
 }

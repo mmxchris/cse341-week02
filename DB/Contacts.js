@@ -17,7 +17,8 @@ const contacts = new mongoose.Schema(
         birthday:{
         type:String
         }
-    }
+    },
+    {collection:'contacts'}
 );
 
-module.exports = Contacts = mongoose.model('contacts', contacts);
+module.exports = mongoose.model('Contacts', contacts);
