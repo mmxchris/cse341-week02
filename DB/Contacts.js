@@ -11,7 +11,16 @@ const contacts = new mongoose.Schema(
         email:{
             type:String
         },
+        phoneNumber:{
+            type:String
+        },
         favoriteColor:{
+            type:String
+        },
+        favoriteFood:{
+            type:String
+        },
+        favoriteGame:{
             type:String
         },
         birthday:{

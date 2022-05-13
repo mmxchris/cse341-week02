@@ -33,10 +33,13 @@ routes.post('/contacts/',async ( req, res) => {
   console.log("Adding contact...")
   try{
     const contact = new Contacts({
-      firstName: req.body.firstName,
+      irstName: req.body.firstName,
       lastName: req.body.lastName,
       email: req.body.email,
+      phoneNumber: req.body.phoneNumber,
       favoriteColor: req.body.favoriteColor,
+      favoriteFood: req.body.favoriteFood,
+      favoriteGame: req.body.favoriteGame,
       birthday: req.body.birthday
     })
     const savedContact = await contact.save();
@@ -64,7 +67,10 @@ routes.put('/contacts/:contactID', async (req,res) => {
         {firstName: req.body.firstName,
           lastName: req.body.lastName,
           email: req.body.email,
+          phoneNumber: req.body.phoneNumber,
           favoriteColor: req.body.favoriteColor,
+          favoriteFood: req.body.favoriteFood,
+          favoriteGame: req.body.favoriteGame,
           birthday: req.body.birthday}}
     );
     res.json(updateContact);

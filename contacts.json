@@ -3,35 +3,51 @@
         "firstName":"Chris",
         "lastName":"Bowen",
         "email":"mmxchris@gmail.com",
+        "phoneNumber":"3216521337",        
         "favoriteColor":"Blue",
+        "favoriteFood":"Pizza",
+        "favoriteGame":"Mega Man",
         "birthday":"04/03/1983"
     },
     "contact2": {
         "firstName":"Leeloo",
         "lastName":"Bowen",
         "email":"Leeloo@iamadog.com",
+        "phoneNumber":"Maybe 2",  
         "favoriteColor":"Red",
+        "favoriteFood":"Cheese",
+        "favoriteGame":"Chase the lizards",
         "birthday":"10/30/2019"
     },
     "contact3": {
         "firstName":"Eileen",
         "lastName":"Bowen",
         "email":"bestwife@bestwife.com",
+        "phoneNumber":"3214244242",  
         "favoriteColor":"Purple",
+        "favoriteFood":"Ramen",
+        "favoriteGame":"Kingdom Hearts",
         "birthday":"02/26/1983"
     },
     "contact4": {
         "firstName":"Tifa",
         "lastName":"Bowen",
         "email":"IlikeSticks@iamadog.com",
+        "phoneNumber":"What are numbers?",  
         "favoriteColor":"Food",
+        "favoriteFood":"Any thing that i can get.",
+        "favoriteGame":"Fetch",
         "birthday":"08/26/2020"
     },
     "contact5": {
         "firstName":"Test",
         "lastName":"Test",
         "email":"test@test.com",
+        "phoneNumber":"1231231234",  
         "favoriteColor":"Test",
+        "favoriteFood":"Taste Testing",
+        "favoriteGame":"Exams",
         "birthday":"00/00/0000"
     }
 }
+

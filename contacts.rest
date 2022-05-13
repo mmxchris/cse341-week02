@@ -47,9 +47,29 @@ POST https://cse341-week02.herokuapp.com/contacts/
 Content-Type: application/json
 
 {
-    "firstName":"Tifa",
-    "lastName":"Bowen",
-    "email":"IlikeSticks@iamadog.com",
-    "favoriteColor":"Food",
-    "birthday":"08/26/2020"
+    "firstName":"Test2",
+        "lastName":"Test2",
+         "email":"test@test.com",
+        "phoneNumber":"1231231234",  
+        "favoriteColor":"Test",
+        "favoriteFood":"Taste Testing",
+        "favoriteGame":"Exams",
+        "birthday":"00/00/0000"
+}
+###
+DELETE http://cse341-week02.herokuapp.com/contacts/6275d581a426681f6eca03f7
+
+###
+PUT http://cse341-week02.herokuapp.com/contacts/6269eb0bf477fa3f8ac24e26
+Content-Type: application/json
+
+{
+    "firstName": "Eileen",
+    "lastName": "Bowen",
+    "email": "bestwife@bestwife.com",
+    "phoneNumber":"3214244242",  
+    "favoriteColor":"Sliver",
+    "favoriteFood":"Ramen",
+    "favoriteGame":"Kingdom Hearts",
+    "birthday":"02/26/1983"
 }
